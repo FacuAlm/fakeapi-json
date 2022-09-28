@@ -1,5 +1,22 @@
 {
     "infantes": [],
-    "tutores": []
+    "tutores": [],
+    "comedores": [
+        {
+            "id": 1,
+            "nombre": "Comedor San Expedito",
+            "direccion": "Calle 1"
+        },
+        {
+            "id": 2,
+            "nombre": "Merendero Lapiz y Papel",
+            "direccion": "Calle 2"
+        },
+        {
+            "id": 3,
+            "nombre": "Merendero San Juan",
+            "direccion": "Calle 3"
+        }
+    ]
    
   }
