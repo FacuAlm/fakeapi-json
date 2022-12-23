@@ -1,22 +1,233 @@
 {
-    "infantes": [],
-    "tutores": [],
-    "comedores": [
+  "infantes": [
+    {
+      "nombre": "Franco",
+      "apellido": "Gonzales",
+      "dni": "49153667",
+      "edad": "12",
+      "fechaNac": "2008-12-02",
+      "tutor": "28201431 - Alejandra Caceres",
+      "diagnostico": [
         {
-            "id": 1,
-            "nombre": "Comedor San Expedito",
-            "direccion": "Calle 1"
+          "fecha": "2022-12-23",
+          "peso": 39.7,
+          "altura": 150
         },
         {
-            "id": 2,
-            "nombre": "Merendero Lapiz y Papel",
-            "direccion": "Calle 2"
-        },
-        {
-            "id": 3,
-            "nombre": "Merendero San Juan",
-            "direccion": "Calle 3"
+          "fecha": "2023-01-23",
+          "peso": 41,
+          "altura": 150
         }
-    ]
-   
-  }
+      ],
+      "comedor": "Comedor San Expedito",
+      "id": 1
+    },
+    {
+      "nombre": "Selene Oriana ",
+      "apellido": "Gonzales",
+      "dni": "-",
+      "edad": "7",
+      "fechaNac": "2012-06-08",
+      "tutor": "28201431 - Alejandra Caceres",
+      "diagnostico": [
+        {
+          "fecha": "2022-12-23",
+          "peso": 292,
+          "altura": 133
+        }
+      ],
+      "comedor": "Comedor San Expedito",
+      "id": 2
+    },
+    {
+      "nombre": "Ingrid",
+      "apellido": "Acuña",
+      "dni": "49771682",
+      "edad": "11",
+      "fechaNac": "2009-10-11",
+      "tutor": "27189659 - Silvia Acuña ",
+      "diagnostico": [
+        {
+          "fecha": "2022-12-23",
+          "peso": 76.5,
+          "altura": 150.5
+        }
+      ],
+      "comedor": "Comedor San Expedito",
+      "id": 3
+    },
+    {
+      "nombre": "Milagros",
+      "apellido": "Tabares",
+      "dni": "-",
+      "edad": "8",
+      "fechaNac": null,
+      "tutor": "-",
+      "diagnostico": [
+        {
+          "fecha": "2022-12-23",
+          "peso": 47.5,
+          "altura": 131
+        },
+        {
+          "fecha": "2023-01-23",
+          "peso": 48,
+          "altura": 131
+        }
+      ],
+      "comedor": "Merendero Lapiz y Papel",
+      "id": 4
+    },
+    {
+      "nombre": "Magali",
+      "apellido": "Rodriguez",
+      "dni": "-",
+      "edad": "7",
+      "fechaNac": "2014-07-09",
+      "tutor": "-",
+      "diagnostico": [
+        {
+          "fecha": "2022-12-23",
+          "peso": 25.7,
+          "altura": 117
+        }
+      ],
+      "comedor": "Merendero Lapiz y Papel",
+      "id": 5
+    },
+    {
+      "nombre": "Roman",
+      "apellido": "Segovia",
+      "dni": "-",
+      "edad": "7",
+      "fechaNac": "2014-12-07",
+      "tutor": "-",
+      "diagnostico": [
+        {
+          "fecha": "2022-12-23",
+          "peso": 39,
+          "altura": 123
+        }
+      ],
+      "comedor": "Merendero Lapiz y Papel",
+      "id": 6
+    },
+    {
+      "nombre": "Brandon Gael",
+      "apellido": "Segovia Fernandez",
+      "dni": "-",
+      "edad": "5",
+      "fechaNac": null,
+      "tutor": "36316962 - Noelia Fernandez",
+      "diagnostico": [
+        {
+          "fecha": "2022-12-23",
+          "peso": 19,
+          "altura": 115
+        },
+        {
+          "fecha": "2023-01-23",
+          "peso": 20,
+          "altura": 115
+        }
+      ],
+      "comedor": "Merendero Don Juan",
+      "id": 7
+    },
+    {
+      "nombre": "Oriana Beatriz",
+      "apellido": "Zalazar",
+      "dni": "-",
+      "edad": "9",
+      "fechaNac": null,
+      "tutor": "36316962 - Natalia Itati Gomez",
+      "diagnostico": [
+        {
+          "fecha": "2022-12-23",
+          "peso": 29.5,
+          "altura": 130
+        }
+      ],
+      "comedor": "Merendero Don Juan",
+      "id": 8
+    },
+    {
+      "nombre": "Tiano Jonas",
+      "apellido": "Medina",
+      "dni": "-",
+      "edad": "5",
+      "fechaNac": null,
+      "tutor": "39635119 - Yanina Moro",
+      "diagnostico": [
+        {
+          "fecha": "2022-12-23",
+          "peso": 20.3,
+          "altura": 113
+        }
+      ],
+      "comedor": "Merendero Don Juan",
+      "id": 9
+    }
+  ],
+  "tutores": [
+    {
+      "nombre": "Juan ",
+      "apellido": "Perez",
+      "dni": "343434",
+      "domicilio": "Avenida Maipu 3274",
+      "prefix": "54",
+      "phone": "3423434",
+      "id": 1
+    },
+    {
+      "nombre": "Alejandra",
+      "apellido": "Caceres",
+      "dni": "28201431",
+      "domicilio": "Magallanes 70",
+      "prefix": "54",
+      "phone": "3795172226",
+      "id": 2
+    },
+    {
+      "nombre": "Silvia",
+      "apellido": "Acuña ",
+      "dni": "27189659",
+      "domicilio": "Ibera",
+      "prefix": "54",
+      "phone": "-",
+      "id": 3
+    },
+    {
+      "nombre": "Debora Noelia",
+      "apellido": "Vallejos",
+      "dni": "-",
+      "domicilio": "Rio Chico y las Azaleas",
+      "phone": "-",
+      "id": 4
+    },
+    {
+      "nombre": "Noelia",
+      "apellido": "Fernandez",
+      "dni": "36316962",
+      "domicilio": "-",
+      "phone": "-",
+      "id": 5
+    },
+    {
+      "nombre": "Natalia Itati",
+      "apellido": "Gomez",
+      "dni": "36316962",
+      "domicilio": "Las Orquideas S/N",
+      "phone": "-",
+      "id": 6
+    },
+    {
+      "nombre": "Yanina",
+      "apellido": "Moro",
+      "dni": "39635119",
+      "domicilio": "Las Orquideas S/N",
+      "phone": "-",
+      "id": 7
+    }
+  ]
+}
